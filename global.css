@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .bg-light-green{
+    background-color:rgb(195, 195, 119);
+    max-width:100%;
+    margin: 0 auto;
+} 
+.container{
+    max-width:100%;
+    margin: 0 auto;
+} 
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color:rgb(253, 241, 225)
+
+}

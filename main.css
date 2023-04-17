@@ -1,0 +1,439 @@
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    height: 4.375rem;
+    max-width: 80%;
+    margin-left: 10%;
+}
+.top-menu ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+.top-menu ul li a {
+    padding: 0.5rem;
+}
+.top-menu ul li a:hover{
+    color:rgb(58, 44, 44);
+    border: radius 0.25rem;
+    cursor:pointer ;
+    color:rgb(49, 46, 46);
+    box-shadow: 0 8px 8px rgba(0,0,0,0.5);
+    border-radius: .2rem;
+}
+.top-menu a{
+    text-decoration: none;
+    color: rgb(79, 73, 73);
+}
+.top-menu h1 a:hover{
+    border: radius 0.25rem;
+    cursor:pointer ;
+    color:rgb(49, 46, 46);
+    box-shadow: 0 8px 8px rgba(0,0,0,0.5);
+    border-radius: .2rem;
+    margin-bottom: 4%;
+}
+  
+  .fix-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.fix-menu a {
+    text-decoration: none;
+    color: rgb(191, 168, 168);
+    padding:2rem;
+    cursor: pointer;
+    transition: .8s;
+    width: auto;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+.fix-menu a:hover{
+   color:rgb(49, 46, 46);
+   box-shadow: 0 8px 8px rgba(0,0,0,0.5);
+
+}
+
+.part-1{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 90%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.top-photo {
+    max-width: 60%;
+    margin-left: 20%;
+    border-radius: 3%;
+    padding-bottom: 2%;
+}
+/* .part-1-text{
+    margin-left: 0;
+} */
+.more-info{
+    width: 10rem;
+    height:1.5rem;
+    background-color: olivedrab;
+    border-radius: .5rem;
+
+}
+button a{
+    
+    text-decoration: none;
+    color: rgb(191, 168, 168);
+
+}
+.more-info:hover{
+    background-color:rgb(172, 172, 92);
+    color:black
+
+}
+
+.part-1-text{
+  display: block;
+  justify-content:center;
+  align-items:center;
+  width: 90%;
+}
+
+.part-family-text{
+  display:block;
+  justify-content:center;
+  align-items:center;
+  width: 90%;
+  
+
+}
+.part3{
+    display: flex;
+    justify-content: space-between;
+}
+.title-top{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.caption{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.part3item{
+    width: 20%;
+    margin: 5%;
+}
+.part3item >img{
+    width: 100%;
+    border-radius: 3%;
+}
+.part3item a {
+    text-decoration: none;
+    color:chocolate;
+
+}
+.part3item a:hover{
+    color: darkmagenta;
+
+}
+.footer{
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+    margin-top: 10%;
+    padding-bottom: 3%;
+
+}
+.footer p{
+    margin-left: 20%; 
+    font-family:fantasy;
+    color: blueviolet;
+
+}
+.footer >ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5rem;
+    
+   
+
+}
+.footer li a{
+    margin-left: 3rem;
+    color: darkmagenta;
+    
+
+}
+.title-top{
+    color:rgb(91, 127, 19);
+
+}
+#menu{
+    background-color: rgb(87, 113, 36);
+
+}
+.caption{
+    color: dimgray;
+
+}
+.part3 a{
+    color: green;
+
+}
+.pregnant-photo{
+    
+    width: 100%;
+    margin-top: 5rem;
+    
+
+}
+.section-photo{
+    display: block;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+}
+.section-photo h2{
+    color: rgb(67, 94, 15);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+
+}
+.section-photo p{
+    color: rgb(54, 46, 46);
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+.section-photo a {
+    color: rgb(67, 94, 15);
+    font-size: 1.5rem;
+
+}
+.wedding-section{
+    display: block;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+
+}
+.wedding-photo{
+    width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    
+
+}
+.wedding-section p{
+    color: rgb(54, 46, 46);
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+.wedding-section a {
+    color: rgb(67, 94, 15);
+
+}
+.wedding-section h2{
+    color: rgb(67, 94, 15);
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 2rem;
+
+}
+.wedding-section a {
+    margin-left: 45%;
+
+}
+
+.family-section{
+    display: block;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+
+}
+.family-photo{
+    width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    
+
+}
+.family-section p{
+    color: rgb(54, 46, 46);
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+
+}
+.family-section a{
+    color: rgb(67, 94, 15);
+
+}
+.family-section h2{
+    color: rgb(67, 94, 15);
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+.family-section a {
+    margin-left: 40%;
+
+}
+.photos-personal{
+    display: flex;
+    width: 90%;
+    margin-left: 5rem;
+   
+
+  
+}
+.personal-photo{
+    width: 100%;
+    justify-content: space-evenly;
+    border-radius:4rem;
+   margin-top: 10%;
+   padding: 3rem;
+}
+.top-personal-photo{
+    width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+   
+}
+.top-personal-section{
+    display: block;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+
+}
+.personal-text{
+    display: block;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+
+}
+.personal-text p{
+    color: rgb(54, 46, 46);
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+
+}
+.personal-text a{
+    color: rgb(67, 94, 15);
+    margin-left: 45%;
+   
+
+}
+.personal-text h2{
+    color: rgb(67, 94, 15);
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+.aboutus-title{
+    text-align: center;
+    color:rgb(86, 77, 77);
+    font-family:fantasy;
+    font-size: large;
+    margin-top: 2rem;
+}
+.aboutus-photo{
+    width: 95%;
+    margin-top: 2rem;
+}
+.aboutus-text{
+    display: block;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+}
+
+.aboutus-text h2{
+    color: darkolivegreen;
+   margin-top: 5rem;
+   margin-bottom: 5rem;
+    font-family: fantasy;
+
+}
+.aboutus-text p {
+    color: rgb(54, 46, 46);
+    line-height: 3rem;
+    
+    
+
+}
+.contactus-text{
+    text-align: center;
+    color: brown;
+    font-size: larger;
+    margin-top: 2rem;
+   margin-left: .7rem;
+   margin-right: .7rem;
+
+}
+.form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10%;
+}
+.contactus-container{
+    background-color:rgb(212, 212, 170)
+
+}
+.form button{
+    width: 5rem;
+    height: 2rem;
+    background-color:rgb(188, 188, 108);
+    border-color: rgb(226, 202, 166);
+    
+
+}
+.form button:hover{
+    /* background-color: olivedrab;
+    color:rgb(76, 70, 70); */
+
+    color:rgb(58, 44, 44);
+    border: radius 0.25rem;
+    cursor:pointer ;
+    color:rgb(49, 46, 46);
+    box-shadow: 0 8px 8px rgba(0,0,0,0.5);
+    border-radius: .2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    
