@@ -104,6 +104,8 @@ button a{
   justify-content:center;
   align-items:center;
   width: 90%;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .part-family-text{
@@ -242,6 +244,9 @@ button a{
     color: rgb(54, 46, 46);
     text-align: center;
     margin-bottom: 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+  
 
 }
 .wedding-section a {
@@ -280,7 +285,7 @@ button a{
     text-align: center;
     margin-bottom: 2rem;
     line-height: 2rem;
-
+    font-size: 1.5rem;
 }
 .family-section a{
     color: rgb(67, 94, 15);
@@ -331,12 +336,16 @@ button a{
     width: 60%;
     margin-left: 20%;
 
+
 }
 .personal-text p{
     color: rgb(54, 46, 46);
     text-align: center;
     line-height: 2rem;
     margin-bottom: 2rem;
+    font-size: 1.5rem;
+
+
 
 }
 .personal-text a{
