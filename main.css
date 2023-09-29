@@ -79,14 +79,14 @@
 /* .part-1-text{
     margin-left: 0;
 } */
-.more-info{
+ .more-info{
     width: 10rem;
     height:1.5rem;
     background-color: olivedrab;
     border-radius: .5rem;
 
-}
-button a{
+} 
+input>a{
     
     text-decoration: none;
     color: rgb(191, 168, 168);
