@@ -19,9 +19,9 @@
 }
 .top-menu ul li a:hover{
     color:rgb(58, 44, 44);
-    border: radius 0.25rem;
+    border: 0.25rem rgb(49, 46, 46);
     cursor:pointer ;
-    color:rgb(49, 46, 46);
+    
     box-shadow: 0 8px 8px rgba(0,0,0,0.5);
     border-radius: .2rem;
 }
@@ -30,9 +30,8 @@
     color: rgb(79, 73, 73);
 }
 .top-menu h1 a:hover{
-    border: radius 0.25rem;
+    border: 0.25rem rgb(49, 46, 46);
     cursor:pointer ;
-    color:rgb(49, 46, 46);
     box-shadow: 0 8px 8px rgba(0,0,0,0.5);
     border-radius: .2rem;
     margin-bottom: 4%;
@@ -427,11 +426,11 @@ button a{
     color:rgb(76, 70, 70); */
 
     color:rgb(58, 44, 44);
-    border: radius 0.25rem;
-    cursor:pointer ;
-    color:rgb(49, 46, 46);
+    border: 0.25rem rgb(49, 46, 46);
+    cursor: pointer;
+    
     box-shadow: 0 8px 8px rgba(0,0,0,0.5);
-    border-radius: .2rem;
+    
 
 }
 
